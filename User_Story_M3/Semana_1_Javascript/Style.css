@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    list-style: none;
+
+}
+
+a{
+ 
+   display: flex;
+ justify-content: space-between;
+ color: black;
+}
+
+ul{
+ list-style-type: none;
+ display: flex;
+ gap: 20px;
+}
