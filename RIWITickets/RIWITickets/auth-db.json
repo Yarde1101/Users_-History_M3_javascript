@@ -1,0 +1,51 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Mila",
+      "correo": "milaadmin@ticket.com",
+      "contrasena": "admin123",
+      "rolid": 1,
+      "creado": "02-06-2026"
+    },
+    {
+      "id": "2",
+      "nombre": "Jesu",
+      "correo": "jesu@ticket.com",
+      "contrasena": "ticket123",
+      "rolid": 2,
+      "creado": "02-06-2026"
+    },
+    {
+      "id": "3",
+      "nombre": "Moi",
+      "correo": "moi@ticket.com",
+      "contrasena": "ticket23",
+      "rolid": 2,
+      "creado": "02-06-2026"
+    },
+    {
+      "nombre": "Yardelis",
+      "correo": "yardelis@ticket.com",
+      "contrasena": "123",
+      "rolid": 3,
+      "creado": "3/6/2026",
+      "id": "2a6Ck7WBOyg"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "nombre": "admin"
+    },
+    {
+      "id": "2",
+      "nombre": "tecnico"
+    },
+    {
+      "id": "3",
+      "nombre": "cliente"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

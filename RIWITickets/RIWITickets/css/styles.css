@@ -1,0 +1,80 @@
+/* Esto sirve para aplicar la fuente elegante a toda la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6; /* Un gris/azul clarito muy suave para el fondo */
+    color: #333;
+}
+
+/* Esto sirve para darle un color moderno a la barra de navegación superior */
+.nav-custom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-bottom: 3px solid #5a378c;
+}
+
+/* Esto sirve para hacer que las tarjetas (cards) se vean "flotantes" y suaves */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Sombra difuminada */
+    transition: transform 0.3s ease; /* Esto prepara la tarjeta para animarse */
+}
+
+/* Esto sirve para que cuando pases el ratón sobre un ticket, la tarjeta "salte" un poquito */
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9ff;
+    transform: translateX(5px); /* Se mueve un poco a la derecha */
+    border-left: 4px solid #667eea; /* Aparece una línea de color al lado */
+}
+
+/* Esto sirve para redondear y poner guapos los botones de Bootstrap */
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Botones azules personalizados */
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.btn-primary:hover {
+    background-color: #5a6cd6; /* Se oscurece al pasar el ratón */
+    transform: translateY(-2px); /* Se levanta un poquito */
+}
+
+/* Cajas de texto (inputs) más suaves y redondeadas */
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Esto sirve para que cuando hagas clic en una caja de texto, brille con color morado */
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.2);
+    border-color: #764ba2;
+}
+
+/* Títulos principales con un color bonito */
+h2, h3, h4 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Esto sirve para que los pequeños letreros de estado (badges) se vean mejor */
+.badge {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
